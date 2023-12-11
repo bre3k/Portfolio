@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    color: rgb(205, 228, 248);
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/vinyl.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/* navbar styling */
+.navbar{
+    position: fixed;
+    padding: 15px 0;
+    width: 100%;
+    background-color: rgb(48, 46, 46);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}  
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+}
+.navbar .logo a{
+    font-size: 35px;
+    color: burlywood;
+    font-weight: 600;
+
+}
+.navbar .menu li a{
+    color:whitesmoke
+
+}
+.navbar .menu li a{
+color: cornsilk;
+font-size: 18px;
+font-weight: 500;
+margin-left: 25px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
